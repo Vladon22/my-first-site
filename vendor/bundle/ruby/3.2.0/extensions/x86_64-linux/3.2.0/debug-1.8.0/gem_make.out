@@ -1,0 +1,19 @@
+current directory: /home/stasik/bob/pip/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+/home/stasik/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/stasik/bob/pip/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20231116-5858-mrkh41 sitelibdir\=./.gem.20231116-5858-mrkh41 clean
+
+current directory: /home/stasik/bob/pip/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20231116-5858-mrkh41 sitelibdir\=./.gem.20231116-5858-mrkh41
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/stasik/bob/pip/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20231116-5858-mrkh41 sitelibdir\=./.gem.20231116-5858-mrkh41 install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20231116-5858-mrkh41/debug
+
+current directory: /home/stasik/bob/pip/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20231116-5858-mrkh41 sitelibdir\=./.gem.20231116-5858-mrkh41 clean
