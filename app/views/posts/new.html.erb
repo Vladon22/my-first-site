@@ -1,1 +1,15 @@
 <h2>Добавлення поста</h2>
+<%= form_for :post, url: posts_path do |f| %>
+  <p>
+    Назва<br>
+    <%= f.text_field(:title, {:class => 'form-control'}) %>
+  </p>
+  <p>
+    Текст<br>
+    <%= f.text_area(:body, {:class => 'form-control'}) %>
+  </p>
+
+  <p>
+    <%= f.submit({:class => 'btn btn-success'}) %>
+  </p>
+<% end %>        
