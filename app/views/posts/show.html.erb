@@ -2,7 +2,7 @@
 <p><%= @post.body %></p>
 <hr>
 <%= link_to "Редагувати", edit_post_path(@post), :class => "btn btn-warning" %>
-
+<br>
 <%= button_to "Видалити", post_path(@post), method: :delete, data: {confirm: "Ви точно хочете видалити пост?"}, :class => 'btn btn-danger' %>
 <hr>
 <h1>Всі коментарі</h1>
@@ -31,4 +31,4 @@
   <p>
     <%= f.submit("Добавити каментарь",{:class => 'btn btn-warning'}) %>
   </p>
-<% end %>        
+<% end %>
